@@ -1,1 +1,5 @@
-console.log('hello world from index.js')
+import './styles/style.css'
+import homePage from './homePage'
+
+const content = document.querySelector('#content')
+content.appendChild(homePage())
