@@ -1,0 +1,27 @@
+nav {
+  margin-bottom: 2em;
+}
+
+nav > ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1em;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  border: 1px solid #000;
+  display: inline-block;
+  padding: 0.25em 1em;
+  border-radius: 0.25em;
+  border-color: var(--txt-clr-prm);
+  cursor: pointer;
+}
+
+nav > ul > li:hover {
+  color: var(--bg-clr-prm);
+  background-color: var(--txt-clr-prm);
+}

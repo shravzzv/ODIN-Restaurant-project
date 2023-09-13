@@ -1,3 +1,5 @@
+import '../styles/navbar.css'
+
 const navbar = () => {
   const element = document.createElement('nav')
   const list = document.createElement('ul')
