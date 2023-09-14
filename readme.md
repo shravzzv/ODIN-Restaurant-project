@@ -11,3 +11,10 @@ This project utilizes **webpack** to create a homepage of a dummy restaurant. It
 ![the homepage](https://res.cloudinary.com/dmt9s5xlh/image/upload/v1694664903/restaurant-homepage_dh2ov6.jpg)
 
 [View Demo](https://odin-restaurant-project.vercel.app/)
+
+## Features
+
+- Uses webpack to bundle all JS, CSS into a single [`main.js`](https://github.com/shravzzv/ODIN-Restaurant-project/blob/main/dist/main.js) file
+- Utilizes **tabs** for navigation
+- Used **github flow** for development
+- Deployed using **vercel**
